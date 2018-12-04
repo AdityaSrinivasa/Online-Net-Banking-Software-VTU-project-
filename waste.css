@@ -1,0 +1,34 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial;
+background:url(photos/main.jpg);
+background-size:cover;
+background-position:center;
+}
+h1
+{
+     font-size:30px;
+     font-family: Arial;
+     text-align: center;
+     font-style:italic;
+
+}
+table
+{
+       border-collapse: collapse;
+       width: 100%;
+       color: #588c7e;
+       font-family:Arial;
+       font-size: 20px;
+       text-align:left;
+       height:100%;
+       border: solid 1px black;
+}
+th
+{
+    background-color: #d96459;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:nth-child(odd) {background-color: #000}

@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Main Page</title>
+<head>
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background:url(photos/main.jpg);
+    background-size:cover;
+    background-position:center;
+    }
+.avatar{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     position: absolute;
+}
+.alpha{
+     overflow:hidden;
+     position:fixed;
+     bottom:0;
+     width:100%;
+     height:80px;
+     padding:5px 90px;
+     box-sizing:border-box;
+     background:rgba(0,0,0,0.6);
+     font-style:italic;
+}
+.alpha ul{
+    list-style:none;
+    float:left;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.alpha ul li a{
+      line-height:80px;
+      color:#fff;
+      padding:12px 30px;
+      text-decoration:none;
+      text-transform:uppercase;
+      font-size:15px;
+      font-weight:bold;
+}
+
+.alpha ul li a:hover{
+     background:rgba(0,0,0,0.8);
+     border-radius:6px;
+}
+Nav{
+     position:fixed;
+     top:0;
+     left:0;
+     width:100%;
+     height:100px;
+     padding:10px 90px;
+     box-sizing:border-box;
+     background:rgba(0,0,0,0.6)
+}
+nav .logo{
+   padding:22px 20px;
+   height:80px;
+   float:left;
+   font-size:24px;
+   font-weight:bold;
+   text-transform:uppercase;
+   color:#fff;
+}
+nav ul{
+    list-style:none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;
+    font-style:italic;
+}
+
+nav ul li a{
+      line-height:80px;
+      color:#fff;
+      padding:12px 25px;
+      text-decoration:none;
+      text-transform:uppercase;
+      font-size:15px;
+      font-weight:bold;
+}
+
+nav ul li a:hover{
+     background:rgba(0,0,0,0.7);
+     border-radius:6px;
+}
+nav ul li a.active
+{
+     background:#fb2525;
+     color:#fff;
+     border-radius:6px;
+}
+.beta{
+     text-alignment:center;
+     font-size:100px;
+     font-family:"bahnschrift";
+     padding: 220px 100px;
+     font-style:italic;
+     color:#00;
+}
+.gamma{
+     text-alignment:center;
+     font-size:45px;
+     font-family:Arial;
+     padding: 240px 100px;
+     font-style:italic;
+     color:#fff;
+}
+div ul li a.omega:hover
+{
+     background:#fb2525;
+     color:#fff;
+     border-radius:6px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap">
+   <nav>
+       <div class="logo">USER</div>
+       <img src="photos/avatar-2.png" class="avatar">
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="FD.html">Fixed deposit</a></li>
+            <li><a href="RD.html">Recurring deposit</a></li>
+            <li><a href="MutualFunds.html">Mutual Funds</a></li>
+            <li><a href="Loans.html">Loans</a></li>
+            <li><a href="Insurance.html">Insurance</a></li>
+         </ul>
+   </nav>
+</div>
+
+<div class="alpha">
+       <ul>
+           <li><a href="FundsTransfer.html">Funds Transfer</a></li>
+           <li><a href="ATM.html">ATM facilities</a></li>
+           <li><a href="#">Locker facilities</a></li>
+           <li><a href="AccountDetails.php">View account details</a></li>
+           <li><a class="omega" href="#">About us</a></li>
+           <li><a class="omega" href="#">Customer care</a></li>
+       </ul>
+</div>
+<div class="beta"><center>NETBANKING DATABASE<center></div>
+</body>
+</html>
